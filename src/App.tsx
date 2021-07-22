@@ -1,13 +1,15 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
+import NameEffect from './components/NameEffect';
+
 
 interface AppProps {};
 
-function App({}: AppProps) {
+const App: React.FC<AppProps> = ({}: AppProps) => {
     return(
         <div className="App">
             <header className="App-header">
-                <h1>Biprajit Majumder</h1>
+                <NameEffect/>
             </header>
         </div>
     );

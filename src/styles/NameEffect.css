@@ -1,0 +1,20 @@
+.Bips-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    background-size: cover;
+}
+
+.Bips {
+    font-size: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30rem;
+}
+
+.loki .letter {
+    text-shadow: 0 0 0.4em #ffffffda, 0 0 0.5em #ffffffda, 0 0 0.25em #ffffffda;
+    mix-blend-mode: screen;
+}
