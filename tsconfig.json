@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "esnext",
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "jsx": "preserve",
+        "noEmit": true,
+        "skipLibCheck": true,
+        "typeRoots": [
+            "node_modules/@types",
+            "types"
+        ],
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "importsNotUsedAsValues": "error",
+    },
+    "include": [
+        "src",
+        "types"
+    ]
+}

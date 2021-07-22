@@ -1,10 +1,14 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 export default {
   mount: {
-    /* ... */
+    public: '/',
+    src: '/dist',
   },
   plugins: [
-    ['@snowpack/plugin-webpack'],
+    '@snowpack/plugin-webpack', 
+    '@snowpack/plugin-react-refresh',
+    '@snowpack/plugin-dotenv',
+    '@snowpack/plugin-typescript',
   ],
   routes: [
     /* Enable an SPA Fallback in development: */

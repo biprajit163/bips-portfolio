@@ -1,3 +1,9 @@
-.snowpack
 build
 node_modules
+
+# dot files
+.snowpack
+.env
+
+# markdown files
+snowpack_info.md
