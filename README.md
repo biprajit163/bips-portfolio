@@ -6,5 +6,3 @@
 - Typescript
 - some form of CMS
 
-
-Random change goes here
