@@ -6,10 +6,19 @@ import NameEffect from './components/NameEffect';
 interface AppProps {};
 
 const App: React.FC<AppProps> = ({}: AppProps) => {
+    const fonts = [
+        'Kirang Haerang',
+        'Indie Flower',
+        'Rye',
+        'Amatic SC',
+        'Bangers',
+        'Fredericka the Great',
+    ];
+
     return(
         <div className="App">
             <header className="App-header">
-                <NameEffect/>
+                <NameEffect fonts={fonts}/>
             </header>
         </div>
     );
